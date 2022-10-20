@@ -1,0 +1,35 @@
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1b74e4;
+    padding: 0.6rem;
+    color: #ffff;
+}
+.brandTitle{
+    font-size: 1.2rem;
+}
+nav div{
+    width :40%;
+}
+ul{
+    display: flex;
+    justify-content: space-evenly;
+    width:30%;
+    list-style-type: none;
+}
+li{
+    text-decoration: none;
+}
+button{
+    background-color: #1b74e4;
+    border: 1px solid #ffff;
+    height: 40px;
+    border-radius: 5px;
+    color: #ffff;
+    transition: 0.5s;
+}
+button:hover{
+    color: #1b74e4;
+    background-color: #ffff;
+}
