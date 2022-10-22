@@ -15,7 +15,7 @@ nav div{
 ul{
     display: flex;
     justify-content: space-evenly;
-    width:30%;
+    width:50%;
     list-style-type: none;
 }
 li{
